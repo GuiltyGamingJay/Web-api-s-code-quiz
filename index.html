@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz!!!</title>
+    <title>Yu-gi-oh card quiz!!!</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css" type>
+    <link href="https://db.ygoprodeck.com/api/v7/cardinfo.php">
+    
 </head>
 <body>
+    <div class=""scores></div> <a href="./score.html">view Highscores</a></div>
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+        <div id=""start-screen class="start"></div>
+        <h1>Yu-gi-oh card quiz</h1>
+        <p>
+            It's time to Quiz!!! Lets teat your Yu-gi-oh card Knowledge!!!
+        </p>\
+        <button id="start">LETS QUIZ!!!</button>
+    </div>
+    <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+    <script src="./Assets/js/questions.js"></script>
+    <script src="./Assets/js/script.js"></script>
+
+
     
 </body>
 </html>
