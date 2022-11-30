@@ -1,7 +1,7 @@
 var questions = [
     {
       title: "who is the main character in yu-gi-oh",
-      choices: ["Pegasus", "Yugi muto", "Joey Wheeler", "seto-Kaiba"],
+      choices: ["Pegasus", "Yugi Muto", "Joey Wheeler", "seto-Kaiba"],
       answer: "Yugi Muto"
     },
     {
@@ -15,71 +15,84 @@ var questions = [
       answer: "Duel monsters"
     },
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      title: "What was the name of Seto Kaiba's duel monsters tournament?",
+      choices: ["Battle Duelist", "Duel city", "monsters", "Battle city tournament"],
+      answer: "Battle city tournament"
     },
     {
-      title: "Boolean operators that can be used in JavaScript include:",
+      title: "What is the name of Yugi's ace monster?",
       choices: [
-        "'And' Operator &&",
-        "'Or' Operator ||",
-        "'Not' Operator !",
-        "All the above"
+        "Blue eye's white Dragon",
+        "Ash Blossom",
+        "Man- Eater Bug",
+        "Dark Magician"
       ],
-      answer: "All the above"
+      answer: "Dark Magician"
     },
     {
       title:
-        "Which one of these is not among the three different types of errors in JavaScript?",
+        "Marik's family was important in the days of the Pharaoh. What was their occupation?",
       choices: [
-        "Animation time errors",
-        "Load time errors",
-        "Run time errors",
-        "Logical Errors"
+        "Teachers",
+        "pyramid builders",
+        "Tomb Keepers",
+        "Advertisers"
       ],
-      answer: "Animation time errors"
+      answer: "Tomb Keepers"
     },
     {
-      title: "What is the data type of variables in JavaScript?",
+      title: "Who was the first duelist Yu-Gi faced against in Duelist Kingdom?",
       choices: [
-        "Object data types",
-        "Function data type",
-        "None of the above",
+        "joey wheeler",
+        "harpies feather duster",
+        "Weevil Underwood",
         "All of the above"
       ],
-      answer: "Object data types"
+      answer: "Weevil Underwood"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
-    },
-    {
-      title: "Arrays in JavaScript can be used to store ____.",
+      title: "What was Dark Magicians Attack points",
       choices: [
-        "numbers and strings",
-        "other arrays",
-        "booleans",
+      "3500", 
+      "4600", 
+      "2500", 
+      "350000"],
+     
+      answer: "2500"
+    },
+    {
+      title: "What card is needed to create a Fusion type monster?.",
+      choices: [
+        "Fusion tunnel",
+        "polymerization",
+        "Fusion Gate",
         "all of the above"
       ],
-      answer: "all of the above"
+      answer: "polymerization"
     },
     {
       title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-      choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+        "What Millineum Item does the Pharoh have?",
+      choices: ["Millinneum Puzzle", "curly puzzle", "Harpies puzzle", "Millennium Rod"],
+      answer: "Millinneum Puzzle"
     },
     {
       title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-      answer: "console.log"
+        "What is Tristan's favorite card?",
+      choices: [
+        "meteonis Drytron",
+       "Blue-eyes white dragon", 
+       "Cyber commander",
+        "Ghost Belle"],
+      answer: "Cyber commander"
     },
     {
-      title: "What is the type of Pop up boxes available in JavaScript?:",
-      choices: ["Alert", "Confirm", "Prompt", "All the above"],
-      answer: "All the above"
+      title: "What duelist never lost a duel in the original yu-gi-oh series",
+      choices: [
+        "Marik", 
+      "Tea Gardner", 
+      "yugi Muto",
+       "All the above"],
+      answer: "Tea Gardner"
     }
   ];
