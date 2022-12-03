@@ -1,6 +1,6 @@
 var questions = [
     {
-      title: "who is the main character in yu-gi-oh",
+      title: "Who is the main character in yu-gi-oh",
       choices: ["Pegasus", "Yugi Muto", "Joey Wheeler", "seto-Kaiba"],
       answer: "Yugi Muto"
     },
